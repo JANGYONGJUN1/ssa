@@ -1,0 +1,214 @@
+@charset "UTF-8";
+body{  font-family: "Nanum Gothic", Verdana, Dotum, AppleGothic, sans-serif, xeicon;}
+fl {float: left;}
+fr {float: right;}
+.border {border: 1px solid grey;}
+
+/* 메인 */
+#main-page {
+	border: 1px solid grey;
+	min-height: 800px;
+	padding: 40px 40px;
+	margin-bottom: 40px;
+}
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#header-inner {
+	float: left;
+}
+.main-text {
+	margin: 0;
+}
+.users{
+	margin:0; 
+	padding-right: 5px;
+	align-content: center;	
+}
+.right-header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+}
+.logout-btn {
+	height: 25px;
+	margin: 0;
+}
+.point {
+	margin: 0;
+	padding-right: 100px;
+	float:right;
+}
+.title {
+	font-weight: 600;
+}
+#content-box {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.text-center{
+	text-align: center;
+}
+#footer {
+	margin-top: 60px;
+	width: 250px;
+	float: right;
+}
+
+/* 어드민 */
+
+.admin-container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+.admin-button {
+    padding: 5px 10px;
+    margin: 5px;
+}
+.right {
+    text-align: right;
+}
+.scheduler {
+    margin-top: 20px;
+}
+
+/* 로그인 */
+.login-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.input-group {
+    margin-bottom: 10px;
+    text-align: left;
+}
+label {
+    display: inline-block;
+    width: 30px;
+    margin-right: 10px;
+}
+input[type="text"], input[type="password"] {
+    width: calc(100% - 50px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+.login {
+	width: 300px;
+	height: 40px;
+}
+
+
+/* 회원가입 */
+
+ .register-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.input-group {
+    margin-bottom: 10px;
+    text-align: left;
+}
+label {
+    display: inline-block;
+    width: 50px;
+    margin-right: 10px;
+}
+input[type="text"], input[type="password"] {
+    width: calc(100% - 70px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+
+/* 회원관리 */
+.container {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.update-h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.update-form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="password"], input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+input[type="submit"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    font-size: 14px;
+}
+input[type="submit"]:hover {
+    background-color: #ddd;
+}
